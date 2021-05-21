@@ -1,0 +1,17 @@
+{
+  "name": "clouds",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.5.0",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "start-server-and-test start http-get://localhost:3030 cy:run"
+  },
+  "author": "badal",
+  "license": "ISC"
+}
