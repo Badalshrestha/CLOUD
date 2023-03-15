@@ -1,17 +1,16 @@
 {
-  "name": "clouds",
+  "name": "playwright",
   "version": "1.0.0",
-  "description": "testing",
+  "description": "",
   "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  },
   "dependencies": {
-    "cypress": "^6.5.0",
-    "prettier": "^2.2.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "cypress:open": "cypress open",
-    "test": "start-server-and-test start http-get://localhost:3030 cy:run"
-  },
-  "author": "badal",
-  "license": "ISC"
+    "ci": "^2.2.0"
+  }
 }
